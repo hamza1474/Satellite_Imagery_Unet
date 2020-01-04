@@ -8,7 +8,7 @@ This repo contains a modified version of the code originally provided by xyzhang
 (https://github.com/xyzhang89/DSTL_Image_Feature_Detection_Unet)
 
 <h3>Motivation:</h3>
-The purpose of this repo was to modify the code of xyzhang89 to be used with RGB channel images so to predict the model on images downloaded from google or other sources
+The purpose of this repo was to modify the code of xyzhang89 to be used with RGB channel images so to test the model on images downloaded from google or other sources
 Sample images should be copied to <code>samples/</code> directory, then refer to <code>predict.ipynb</code> to check the predictions
 
 
@@ -24,11 +24,12 @@ The following external libraries were used
 </ul>
 
 <h3>Data:</h3>
+**MAKE SURE TO MODIFY THE VALUES IN <code>config.py</code> AS PER YOUR NEEDS**
 
 To download the dataset, follow these steps
 
 <ul>
-  <li><code>!pip install kaggle</code></li>
+  <li><code>pip install kaggle</code></li>
   <li><code>mkdir data</code></li>
   <li><code>cd data</code></li>
   <li><code>touch /root/.kaggle/kaggle.json</code> for colab OR <code>touch ~/.kaggle/kaggle.json</code> for Linux </li>
