@@ -36,7 +36,6 @@ To download the dataset, follow these steps
   <li><code>kaggle competitions download -c dstl-satellite-imagery-feature-detection -f three_band.zip</code></li>
   <li><code>kaggle competitions download -c dstl-satellite-imagery-feature-detection -f grid_sizes.csv.zip</code></li>
   <li><code>kaggle competitions download -c dstl-satellite-imagery-feature-detection -f train_wkt_v4.csv.zip'</code></li>
-  <li><code>kaggle competitions download -c dstl-satellite-imagery-feature-detection</code></li>
 </ul>
 
 </body>
