@@ -1,0 +1,12 @@
+*.h5
+*.hdf5
+data/*
+!data/readme.txt
+samples/*
+weights/*
+!weights/.gitkeep
+model_checkpoints/*
+!model_checkpoints/.gitkeep
+samples/*
+!samples/.gitkeep
+
